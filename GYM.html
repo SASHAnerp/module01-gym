@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="header">
+                <div class="header-item">
+                    <a href="#" class="header-logo"></a>
+                    <div class="header-modal">
+                        <button class="Modal-mobile-btn" onclick="openModal()"></button>
+                    </div>
+                    <nav>
+                        <ul class="header-nav">
+                            <li><a href="#">Мероприятия</a></li>
+                            <li><a href="#">Расписание</a></li>
+                            <li><a href="#">О компании</a></li>
+                        </ul> 
+                    </nav> 
+                </div>
+                <div class="button">
+                    <button type="button" class="buttonFB">
+                        <span>
+                            <img src="images/insta.svg" alt="фейсбук">
+                        </span>
+                    </button>
+                    <button type="button" class="buttonIN">
+                        <span>
+                            <img src="images/fs.svg" alt="инстаграмм">
+                        </span>
+                    </button>
+                </div>
+            </div>   
+        </div>
+    </header>
+   <div class="banner">
+       <div class="container">
+       <div class="content">
+           <h1 class="content-title">Онлайн тренировки любой сложности</h1>
+           <span class="content-a">&gt;&nbsp;15&nbsp;тренировок</span>
+        </span>
+           <div class="content-text">
+           <p>в области спортивной физиологии и нутрициологии</p>
+           <span class="content-info">
+               <a href="#promo">узнать подробнее</a>
+           </span>
+            </div>
+            <button class="down"></button>
+    </div>
+       <div class="visual">
+           <div class="visual-left"></div>
+           <div class="visual-right"></div>
+           <img src="images/girl.png" alt="girl">
+       </div>
+        </div> 
+    </div>
+<main>
+    <div class="promo" id="promo">
+        <div class="container">
+            <h2 class="promo-header">Ближайшие события</h2>
+        <div class="promo-event">
+        <div class="promo-left">
+            <div class="promo-gradient">
+                <p class="promo-date">29.06 - 4.07</p>
+                <h2 class="promo-title">Марафон выносливости</h2>
+                <a href="#openModal1" class="promo-go">участвовать</a>
+                <button class="promo-btn">марафон</button>
+                <a class="promo-left-theme"></a>
+            </div>
+        </div>
+       <div class="promo-center">
+           <div class="promo-gradient">
+            <p class="promo-date">09.07</p>
+            <h2 class="promo-title">Как стать тренером?</h2>
+            <a href="#" class="promo-go">участвовать</a>
+            <button class="promo-btn">вебинар</button>
+            <a class="promo-theme"></a>
+           </div>
+       </div>
+       <div class="promo-right">
+           <div class="promo-gradient">
+            <p class="promo-date">15.07</p>
+            <h2 class="promo-title">Йога, как стиль жизни</h2>
+            <a href="#" class="promo-go">участвовать</a>
+            <button class="promo-btn">вебинар</button>
+            <sa class="promo-right-theme"></a>
+           </div>
+       </div> 
+        </div>
+      </div>
+   </div>
+   <div class="workout-shedule">
+       <div class="container">
+           <div class="workout-header">
+              <h3>Расписание тренировок</h3>
+           <p class="workout-time">22-28 июня</p>
+           </div>
+           <div class="workout-shedule-grid">
+            <div class="workout-grid">
+                <p class="workout-grid-data">22 июня, 10:00</p>
+                <img class="workout-grid-img" src="images/1.svg" alt="функциональный тренинг">
+                <p class="workout-grid-title">функциональный тренинг</p>
+                <p class="workout-grid-description">Описание функционального тренинга скоро будет здесь</p>
+            </div>
+            <div class="workout-grid">
+                <p class="workout-grid-data">24 июня, 10:00</p>
+                <img class="workout-grid-img" src="images/2.svg" alt="Body sculpt">
+                <p class="workout-grid-title">Body sculpt</p>
+                <p class="workout-grid-description">Описание Body sculpt</p>
+            </div>
+            <div class="workout-grid">
+                <p class="workout-grid-data">26 июня, 11:00</p>
+                <img class="workout-grid-img" src="images/3.svg" alt="L.A.B.">
+                <p class="workout-grid-title">L.A.B.</p>
+                <p class="workout-grid-description">Описание L.A.B. скоро будет здесь</p>
+            </div>
+            <div class="workout-grid">
+                <p class="workout-grid-data">23 июня, 10:00</p>
+                <img class="workout-grid-img" src="images/4.svg" alt="Силовой микс">
+                <p class="workout-grid-title">Силовой микс</p>
+                <p class="workout-grid-description">Упражнения помогут создать красивый рельеф и прийти в спортивную форму.</p>
+            </div>
+            <div class="workout-grid">
+                <p class="workout-grid-data">25 июня, 11:00</p>
+                <img class="workout-grid-img" src="images/5.svg" alt="Дыхательные практики">
+                <p class="workout-grid-title">Дыхательные практики</p>
+                <p class="workout-grid-description">Описание дыхательных практик скоро будет здесь</p>
+            </div>
+            <div class="workout-grid">
+                <p class="workout-grid-data">27 июня, 10:00</p>
+                <img class="workout-grid-img" src="images/6.svg" alt="Комплексная разминка">
+                <p class="workout-grid-title">Комплексная разминка</p>
+                <p class="workout-grid-description">Описание комплексной разминки скоро будет здесь</p>
+            </div>
+           </div>
+        </div>
+   </div>
+   <div class="subscription">
+    <div class="container">
+        <div class="subscription-blok">
+            <h4 class="subscription-title">Подпишитесь на рассылку</h4>
+        </div>
+        <form class="form-send-subscription" action="mailto:ваш адрес e-mail" enctype="text/plain">
+            <div class="send">
+                <div class="send-input">
+                    <input type="email" value="Ваш e-mail" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Ваш e-mail" required>
+                    <input type="checkbox" id="01" class="agreement-checkbox">
+                    <label for="01" class="checkbox-text">Согласен с обработкой <a href="#" target="_blank">персональных данных</a></label>
+                </div>
+                <button type="submit" id="mc-embedded-subscribe" class="send-subscription-btn">Подписаться</button>
+            </div>       
+        </form>
+    </div>
+</div>
+<div class="about-company">
+    <div class="container">
+        <div class="company-content">
+            <div class="container-content">
+                <div class="company-text">
+                    <h5 class="company-title">О компании</h5>
+                       <p class="company-text">Наша компания является одной из немногих, кто предлагает фитнес услуги онлайн! Оставайтесь с нами и вы сами увидите, что мы проводим не только онлайн-тренировки.</p>
+                    <a href="#openModal" class="company-btn">Записаться</a> 
+                    <div class="company-img">          
+                    </div>                        
+                </div>
+                <div class="about-company-item">
+                <div class="company-benefits">
+            <p class="company-benefits-title">Экономия времени </p>
+            <p class="company-benefits-description">Не нужно тратить время на дорогу</p>
+                </div>
+                <div class="company-benefits">
+            <p class="company-benefits-title">Индивидуальный подход</p>
+            <p class="company-benefits-description">Внимание тренера пренадлежит только вам</p>
+                </div>
+                <div class="company-benefits">
+            <p class="company-benefits-title">Экономия денег</p>
+            <p class="company-benefits-description">Средняя цена одной тренировки - 700₽</p>
+            </div>
+                <div class="company-benefits">
+            <p class="company-benefits-title">Опытный персонал</p>
+            <p class="company-benefits-description">Стаж работы у наших тренеров от 5 лет</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</div>        
+</main>
+<footer>
+    <div class="footer-body">
+        <div class="container">
+            <div class="footer-box">
+                <div class="footer-cover">
+                    <div class="footer-item">
+                        <a href="#" class="footer-logo"></a>
+                            <ul class="footer-ul">
+                            <li><a href="#">Мероприятия</a></li>
+                            <li><a href="#">Расписание</a></li>
+                            <li><a href="#">О компании</a></li>
+                            </ul>
+                    </div>
+                    <div class="footer-contacts">
+                        <a href="#" class="footer-site">info@freefit.com</a>
+                        <div class="footer-social">
+                            <p><a href="#" class="footer-social-in"></a></p>
+                            <p><a href="#" class="footer-social-fb"></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-rights">
+                    <p>© 2020, Все права защищены</p>
+                    <p>Сделано в рамках курса учебной платформы <a href="#" class="footer-linc">Annblok</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <div class="modal-mobile" id="modal-mobile">
+        <div class="modal-logo">
+            <a href="#" class="modal-logo"></a>
+        </div>
+        <ul class="header-nav">
+            <li><a href="#">Мероприятия</a></li>
+            <hr>
+            <li><a href="#">Расписание</a></li>
+            <hr>
+            <li><a href="#">О компании</a></li>
+        </ul> 
+        <div class="modal-social">
+            <a href="#" class="modal-in"></a>
+            <a href="#" class="modal-fb"></a>
+        </div>
+        <button class="modal-mobile-close" onclick="closeModal()"></button>
+    </div>
+    <div class="modal-mobile1" id="ModalPromo">
+        <div class="subscription-blok-modal">
+            <h7 class="title-modal">Заявка на участие «Как стать тренером»</h7>
+            <p class="text-modal">Заполните все поля, и мы пришлем информацию в ближайшее время</p>
+        </div>
+        <form class="subscription-modal" action="mailto:ваш адрес e-mail" enctype="text/plain">
+            <div class="send-email-mobile">
+                <div class="send-input-modal">
+                    <input type="email-mobile" value="Ваш e-mail" name="EMAIL" class="email-mobile" id="mce-EMAIL" placeholder="Ваш e-mail" required>
+                </div>
+                <div class="send-namber">
+                    <input type="namber-mobile" value="Ваш телефон" name="namber" class="namber" id="mce-NOMBER" placeholder="Ваш номер" required>
+                </div>
+                <a href="#">отправить</a>
+            </div>       
+        </form>
+        </div>
+
+<script>
+// Menu
+
+     function openModal() {
+        document.getElementById("modal-mobile").style.top = "0px";
+       }
+
+    function closeModal() {
+        document.getElementById("modal-mobile").style.top = "-400px";
+       }
+
+
+
+    </script>
+</body>
+</html>
