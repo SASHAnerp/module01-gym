@@ -672,7 +672,7 @@ html {
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../images/icons/check_box_empty.svg);
+    background-image: url(../images/);
  }
  .radio:checked + label::before{
     border-radius: 100%;
